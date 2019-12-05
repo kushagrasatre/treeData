@@ -1,0 +1,109 @@
+#custom-search-input{
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+
+
+
+
+.circle{width:50px;height:50px;font-size:20px;
+    color:#fff;text-align:center;
+    align-self: center;
+    line-height:0;border-radius:50%;background:#09f;
+    margin-bottom:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.record-container {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%; height: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px #99907e;
+    background: #b5ac9a;
+    margin-bottom: 10px;
+    padding:10px
+  }
+  .record-container table {
+    margin:0;
+  }
+  .record {
+    position: relative;
+    margin: 19px auto;
+    width: 262px; height: 262px;
+    border-radius: 50%;
+    background: 
+      linear-gradient(30deg, transparent 40%, rgba(42, 41, 40, .85) 40%) no-repeat 100% 0,
+      linear-gradient(60deg, rgba(42, 41, 40, .85) 60%, transparent 60%) no-repeat 0 100%,
+      repeating-radial-gradient(#2a2928, #2a2928 4px, #ada9a0 5px, #2a2928 6px);
+    background-size: 50% 100%, 100% 50%, 100% 100%;
+  }
+  .record:after {
+    position: absolute;
+    top: 50%; left: 50%;
+    margin: -35px;
+    border: solid 1px #d9a388;
+    width: 68px; height: 68px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px #da5b33,
+      inset 0 0 0 27px #da5b33;
+    background: #b5ac9a;
+    content: '';
+  }
+  .box {
+    width: 100%;
+    background:red;;
+  }
+  .circle-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+  }
+  .circle-records-container {
+    margin-top:20px;
+    min-height: 200px;
+  }
+  .records-container {
+    align-items: center;
+    display: flex;
+}
+
+.active{
+  border: 10px solid yellow;
+  stroke-width: 4px;
+}
+
+.success {
+  background:red;
+  border:1px solid red;
+}
+
